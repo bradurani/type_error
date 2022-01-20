@@ -1,0 +1,10 @@
+syntax = "proto3";
+package foo;
+
+message Foo {
+  string id = 1;
+  string email = 2;
+  string company_name = 3;
+  map<string,string> form_data = 5;
+  string time_iso = 6;
+}
