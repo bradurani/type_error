@@ -14,6 +14,5 @@ protoc -I schemas/ \
   --ts_proto_out=$TS_DIR \
   --ts_proto_opt=esModuleInterop=true \
   --ts_proto_opt=env=node \
-  --ts_proto_opt=exportCommonSymbols=true \
   --ts_proto_opt=outputEncodeMethods=true \
   schemas/*.proto
